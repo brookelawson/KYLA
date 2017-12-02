@@ -5,21 +5,55 @@
     Kentucky Lawyers for the Arts
   </title>
 
+  <div class="header">
+    <div class="row">
     <img src="images/logo.png"/>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-1">
+          <h1>HOME</h1>
+        </div>
+        <div class="col-sm-2">
+          <h1>ABOUT US</h1>
+        </div>
+        <div class="col-sm-1">
+          <h1>BOARD</h1>
+        </div>
+        <div class="col-sm-3">
+          <h1>ARTIST REFERRAL APPLICATION</h1>
+        </div>
+        <div class="col-sm-3">
+          <h1>ATTORNEY VOLUNTEER APPLICATION</h1>
+        </div>
+        <div class="col-sm-2">
+          <h1>DONATE</h1>
+        </div>
+      </div>
+    </div>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='css/style.css' rel='stylesheet' type='text/css'>
   </head>
 <body>
 
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <h1>HOME</h1>
+    <div class="body">
+      <div class="line">
+        <h2>Kentucky Lawyers for the Arts has one mission:</h2>
+      </div>
+      <div class="line">
+        <h2>to support the Kentucky arts community by providing referrals</h2>
+      </div>
+      <div class="line">
+        <h2>to attorneys that are willing to offer pro bono legal services to</h2>
+      </div>
+      <div class="line">
+        <h2>qualifying artists and arts organizations.</h2>
       </div>
     </div>
-  </div>
 
 
+</body>
 </html>

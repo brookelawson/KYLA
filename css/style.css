@@ -1,13 +1,53 @@
 h1{
-  font-size: 20px;
+  font-size: 17px;
   color: white;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 22px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  line-height: 60%;
+}
+
+.col-sm-2{
+  text-align: center;
+}
+
+.col-sm-1{
+  text-align: center;
+}
+
+.col-sm-3{
+  text-align: center;
 }
 
 .container{
   background-color: #2c68ad;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   padding-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
+}
+
+.header{
+  background-color: white;
+  width: 100%;
+}
+
+.body{
+  background-color: white;
+  padding-top: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-content: center;
+}
+
+@media only screen and (min-width: 1140px) {
+  body{
+    background-color:#abc3df;
+  }
 }
