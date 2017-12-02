@@ -12,6 +12,12 @@ h2{
   line-height: 60%;
 }
 
+h3{
+  font-size: 30px;
+  color: #2c68ad;
+  text-align: center;
+}
+
 .col-sm-2{
   text-align: center;
 }
@@ -22,6 +28,14 @@ h2{
 
 .col-sm-3{
   text-align: center;
+}
+
+.col-sm-4{
+  text-align: right;
+}
+
+.col-md-2{
+  text-align: left;
 }
 
 .container{
@@ -44,6 +58,7 @@ h2{
   margin-left: 10%;
   margin-right: 10%;
   align-content: center;
+  padding-bottom: 20px;
 }
 
 .footer{
@@ -54,6 +69,23 @@ h2{
   position: absolute;
   bottom: 0;
   padding-bottom: 10px;
+}
+
+.line{
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+.form-inline{
+  text-align: center;
+}
+
+.form{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 150px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 1140px) {
