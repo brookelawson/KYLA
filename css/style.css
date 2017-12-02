@@ -1,0 +1,13 @@
+h1{
+  font-size: 20px;
+  color: white;
+}
+
+.container{
+  background-color: #2c68ad;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
