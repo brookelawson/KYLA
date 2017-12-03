@@ -131,16 +131,16 @@ color: white;
   padding-bottom: 20px;
 }
 
+.spacer{
+  padding-bottom: 50px;
+}
+
 .pictures{
   background-color: white;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.spacer{
-  margin-bottom: 50px;
 }
 
 
