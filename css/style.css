@@ -34,6 +34,19 @@ h5{
   font-weight: normal;
 }
 
+h6{
+  font-size: 30px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+p{
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
 .col-sm-2{
   text-align: center;
 }
@@ -58,6 +71,15 @@ h5{
   padding-top: 50px;
 }
 
+.col-md-6{
+  padding-right: 50px;
+  text-align: right;
+}
+
+.col-sm-6{
+  padding-left: 50px;
+}
+
 .container{
   background-color: #2c68ad;
   padding-bottom: 10px;
@@ -80,6 +102,14 @@ h5{
   align-content: center;
   padding-bottom: 20px;
   overflow-y: auto;
+}
+
+.about{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .footer{
@@ -142,7 +172,6 @@ color: white;
   padding-top: 75px;
   padding-bottom: 75px;
 }
-
 
 
 @media only screen and (min-width: 1140px) {
