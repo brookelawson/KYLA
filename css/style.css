@@ -41,6 +41,11 @@ h6{
   padding-left: 50px;
 }
 
+h7{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 p{
   font-size: 18px;
   font-weight: normal;
@@ -71,13 +76,17 @@ p{
   padding-top: 50px;
 }
 
-.col-md-6{
+.col-lg-5{
   padding-right: 50px;
   text-align: right;
 }
 
-.col-sm-6{
+.col-sm-7{
   padding-left: 50px;
+}
+
+.col-lg-2{
+  float: right;
 }
 
 .container{
@@ -157,6 +166,30 @@ p{
 color: white;
 }
 
+.btn-lg{
+  background-color: white;
+  border color: white;
+}
+
+.btn-lg:hover{
+  background-color: #2c68ad;
+  border-color: #2c68ad;
+}
+
+.btn-lg:focus{
+  background-color: #2c68ad;
+  border-color: #2c68ad;
+}
+
+.btn-info{
+  border-color: black;
+  margin-top: 10px;
+}
+
+.btns{
+  color: black;
+}
+
 #box{
   border: 2px solid;
   border-color: #2c68ad;
@@ -179,8 +212,39 @@ color: white;
   padding-bottom: 75px;
 }
 
-@media only screen and (max-width: 1000px){
-  .col-md-6{
+.modal-body{
+  text-align: left;
+}
+
+.row1{
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 770px){
+  .modal-content{
+    margin-left: -20%;
+    margin-right: -20%;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .modal-content{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+
+
+@media only screen and (max-width: 1200px){
+  .col-lg-5{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width 500px){
+  .col-md-5{
     visibility: hidden;
   }
 }
