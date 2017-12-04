@@ -89,9 +89,15 @@ p{
   width: 100%;
 }
 
+
+
+.slideshow{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .header{
   background-color: white;
-  width: 100%;
 }
 
 .body{
@@ -173,6 +179,11 @@ color: white;
   padding-bottom: 75px;
 }
 
+@media only screen and (min-width: 1000px){
+  col-md-6{
+    visibility: hidden;
+  }
+}
 
 @media only screen and (min-width: 1140px) {
   body{
