@@ -46,6 +46,7 @@ h7{
   font-weight: bold;
 }
 
+
 p{
   font-size: 18px;
   font-weight: normal;
@@ -136,6 +137,7 @@ p{
   padding-bottom: 10px;
 }
 
+
 .line{
   margin-left: 15px;
   margin-right: 0px;
@@ -220,6 +222,42 @@ color: white;
   margin-bottom: 20px;
 }
 
+.navbar{
+  background-color: #2c68ad;
+}
+
+.p-4{
+  margin-left: 5%;
+}
+
+#navbarToggleExternalContent{
+  background-color: #2c68ad;
+}
+
+
+@media only screen and (max-width: 770px){
+  .pos-f-t{
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .pos-f-t{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 770px){
+  .container{
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .container{
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 770px){
   .modal-content{
