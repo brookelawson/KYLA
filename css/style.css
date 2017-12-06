@@ -13,7 +13,9 @@ h2{
   font-style: italic;
   font-weight: normal;
   text-align: center;
-  line-height: 60%;
+  line-height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h3{
@@ -21,6 +23,8 @@ h3{
   color: #2c68ad;
   text-align: center;
   font-weight: normal;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h4{
@@ -86,7 +90,13 @@ p{
   padding-left: 50px;
 }
 
-.col-lg-2{
+#twitter{
+  display: inline-block;
+  float: right;
+}
+
+#tag{
+  display: inline-block;
   float: right;
 }
 
@@ -197,10 +207,10 @@ color: white;
 #box{
   border: 2px solid;
   border-color: #2c68ad;
-  margin-left: 20%;
-  margin-right: 20%;
   padding-bottom: 30px;
   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .space{
@@ -276,6 +286,20 @@ color: white;
   }
 }
 
+@media only screen and (min-width: 765px){
+  #box{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 764px){
+  #box{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
 
 @media only screen and (max-width: 1200px){
   .col-lg-5{
@@ -284,7 +308,7 @@ color: white;
 }
 
 @media only screen and (max-width 500px){
-  .col-md-5{
+  .col-md-6{
     visibility: hidden;
   }
 }
